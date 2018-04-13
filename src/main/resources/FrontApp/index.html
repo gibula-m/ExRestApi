@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex - Faust-IT</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/myCss.css">
+</head>
+<body>
+
+
+
+<div class="container">
+    <button type="button" id="users-list" class="btn btn-lg">Users list</button>
+    <button type="button" id="groups-list" class="btn btn-lg">Groups list</button>
+    <button type="button" id="add-user" class="btn btn-lg">Add user</button>
+    <button type="button" id="remove-user" class="btn btn-lg">Remove user</button>
+    <button type="button" id="modify-user" class="btn btn-lg">Modify user</button></br>
+    <button type="button" id="add-group" class="btn btn-lg">Add group</button>
+    <button type="button" id="remove-group" class="btn btn-lg">Remove group</button>
+    <button type="button" id="modify-group" class="btn btn-lg">Modify group</button></br>
+    User form:
+    </br>
+    <form id="add-user-form">
+        Nickname<input type="text" name="nickname"/>
+        Name<input type="text" name="name"/>
+        Surname<input type="text" name="surname"/></br>
+        Password<input type="text" name="password"/>
+        Date of birth<input type="text" name="date"/>
+        Groups<input type="text" name="groups"/>
+    </form>
+</br>
+    Group form:
+    </br>
+    <form id="add-group-form">
+        Name<input type="text" name="group_name"/>
+        Users<input type="text" name="group_users"/></br>
+
+    </form>
+
+    <div class="result">
+
+    </div>
+</br>
+    <div class="action-bar">
+
+        </br></div>
+<div class="action-field"></div>
+</div>
+
+
+
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/users.js"></script>
+<script src="js/groups.js"></script>
+</body>
+</html>

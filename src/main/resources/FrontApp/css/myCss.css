@@ -1,0 +1,21 @@
+body{
+    background-image: url('../images/bg.png');
+}
+btn{
+    margin:10px;
+}
+.container{
+    margin-top:50px;
+}
+.result{
+    margin-top:50px;
+}
+#users>tr>th{
+    padding:20px;
+}
+tr{
+    margin-top:15px;
+}
+th{
+    padding: 15px;
+}
